@@ -11,7 +11,7 @@ mt = False
 
 #Get object from which tensorflow will pull data from
 #TODO cross validation
-path = "/home/slundquist/mountData/datasets/mnist"
+path = "/home/henry/grive/UCRiverside/Courses/EE243_AdvancedComputerVision/Project/RAM/MNIST_data"
 
 if(mt):
     #Make new class based on mnist class

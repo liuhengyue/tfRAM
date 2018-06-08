@@ -3,7 +3,7 @@
 class DramParams(object):
     ##Bookkeeping params
     #Base output directory
-    out_dir            = "/home/slundquist/mountData/ram/"
+    out_dir            = "./"
     #Inner run directory
     run_dir            = out_dir + "/mono_dram/"
 

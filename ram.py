@@ -11,8 +11,9 @@ mt = False
 
 #Get object from which tensorflow will pull data from
 #TODO cross validation
-path = "/home/slundquist/mountData/datasets/mnist"
-
+path = "/home/henry/grive/UCRiverside/Courses/EE243_AdvancedComputerVision/Project/RAM/MNIST_data"
+# reset the graph
+tf.reset_default_graph()
 if(mt):
     #Make new class based on mnist class
     mt_mnistData = mtWrapper(mnistData, batch_size)
